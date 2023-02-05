@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PvProject</class>
+ <widget class="QMainWindow" name="PvProject">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>855</width>
+    <height>876</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Photovoltaic Project</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabWidgetPage1">
+       <attribute name="title">
+        <string>Stammdaten</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>541</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Anlagestandort</string>
+        </property>
+        <widget class="QLineEdit" name="pvp_plantLocation_street">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>30</y>
+           <width>261</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_plantLocation_streetNumber">
+         <property name="geometry">
+          <rect>
+           <x>440</x>
+           <y>30</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Strasse / Nummer</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_plantLocation_zip">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>60</y>
+           <width>61</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_plantLocation_city">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>60</y>
+           <width>271</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PLZ / Ort</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>90</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Parzelle</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_plantLocation_plotNumber">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>90</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Koordinaten LV03</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_plantLocation_swissGridX">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>120</y>
+           <width>101</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_plantLocation_swissGridY">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>120</y>
+           <width>91</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>280</x>
+           <y>120</y>
+           <width>21</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>/</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>170</y>
+          <width>541</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Bauherr</string>
+        </property>
+        <widget class="QLineEdit" name="pvp_owner_title">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>30</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_lastName">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>60</y>
+           <width>171</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Anrede</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_email">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>150</y>
+           <width>341</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>150</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>E-Mail</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Name / Vorname</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_firstName">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>60</y>
+           <width>161</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>90</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Strasse / Nummer</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_address_zip">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>120</y>
+           <width>61</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_address_street">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>90</y>
+           <width>261</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_address_streetNumber">
+         <property name="geometry">
+          <rect>
+           <x>440</x>
+           <y>90</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PLZ / Ort</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_address_city">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>120</y>
+           <width>271</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>210</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Telefon</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_phone">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>210</y>
+           <width>341</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>180</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>E-Mail 2</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_email2">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>180</y>
+           <width>341</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>240</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Telefon 2</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_phone2">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>240</y>
+           <width>341</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>270</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Mobile</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_owner_mobile">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>270</y>
+           <width>341</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="fieldsFromKev">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>30</y>
+          <width>181</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Übernehmen von KEV</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>480</y>
+          <width>761</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Bemerkungen</string>
+        </property>
+        <widget class="QPlainTextEdit" name="pvp_comment">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>741</width>
+           <height>251</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="openProjectFolder">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>60</y>
+          <width>181</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Projektordner öffnen</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="copyClientAddressFromLocation">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>260</y>
+          <width>181</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>von Anlagestandort</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="coordinatesFromAddress">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>130</y>
+          <width>181</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Koordinaten von Adresse</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="createQuote">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>440</y>
+          <width>181</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>neue Offerte</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabWidgetPage3">
+       <attribute name="title">
+        <string>Fortschritt</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>-40</y>
+          <width>1271</width>
+          <height>991</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Projektfortschritt</string>
+        </property>
+        <widget class="QPushButton" name="pb_finalInvoiceSent">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>480</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Schlussrechnung verschickt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_finalInvoiceSent">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>480</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Anfrage erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_inquiryReceived">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>50</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Dach angeschaut</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_roofMeasured">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>80</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Offerte erstellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_quote1Sent">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>110</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_5">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>110</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Offerte 2 erstellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_quote2Sent">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>110</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>140</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Offerte 3 erstellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_quote3Sent">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>140</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_7">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>140</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Offerte 4 erstellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_quote4Sent">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>140</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>220</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Auftrag erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_orderReceived">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>220</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>250</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Anschlussgesuch verschickt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_tagSent">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>250</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_10">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>250</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Anschlussgesuch erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_tagReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>250</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>280</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Installationsanzeige verschickt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_iaSent">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>280</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_12">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>280</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Installationsanzeige erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_iaReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>280</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_13">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>310</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Solarmeldung verschickt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_bauSent">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>310</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_14">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>310</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Solarmeldung erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_bauReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>310</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>340</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Akontorechnung erstellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_partialInvoiceSent">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>340</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_16">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>340</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Akontorechnung bezahlt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_partialInvoiceReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>340</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_17">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>370</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Material bestellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_materialOrdered">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>370</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_18">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>370</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Material erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_materialReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>370</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_19">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>400</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Baubeginn</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_constructionStart">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>400</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_20">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>450</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Inbetriebnahme</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_launch">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>450</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_21">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>570</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Anlagedoku erstellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_documentationCreated">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>570</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_22">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>400</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Anlagedoku vor Ort</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_documentationPlaced">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>400</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_23">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>480</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Schlussrechnung bezahlt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_finalInvoiceReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>480</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_24">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>510</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>M+PP bestellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_siNaDcOrdered">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>510</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_25">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>510</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>M+PP erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_siNaDcReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>510</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_26">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>540</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>SiNa AC bestellt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_siNaAcOrdered">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>540</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_27">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>540</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>SiNa AC erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_siNaAcReceived">
+         <property name="geometry">
+          <rect>
+           <x>660</x>
+           <y>540</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_28">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>570</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>EIV vollständig</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_eivComplete">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>570</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_finalInvoiceSent_29">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>600</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>EIV ausbezahlt</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_eivPayed">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>600</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_orderRejected">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>170</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Auftrag nicht erhalten</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_orderRejected">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>170</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pb_archived">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>630</y>
+           <width>221</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Projekt archiviert</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_progress_archived">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>630</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabWidgetPage2">
+       <attribute name="title">
+        <string>KEV / EIV</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>541</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Anlagestandort</string>
+        </property>
+        <widget class="QLineEdit" name="pvp_kev_plantLocationStreet">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>30</y>
+           <width>261</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_plantLocationHouseNumber">
+         <property name="geometry">
+          <rect>
+           <x>440</x>
+           <y>30</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Strasse / Nummer</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_plantLocationZip">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>60</y>
+           <width>61</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_plantLocationCity">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>60</y>
+           <width>271</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_10">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>69</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PLZ / Ort</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>541</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Empfänger</string>
+        </property>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryStreet">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>120</y>
+           <width>261</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryHouseNumber">
+         <property name="geometry">
+          <rect>
+           <x>440</x>
+           <y>120</y>
+           <width>71</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>120</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Strasse / Nummer</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryZip">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>150</y>
+           <width>61</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryCity">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>150</y>
+           <width>271</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>150</y>
+           <width>69</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>PLZ / Ort</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryCompany">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>30</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Firma</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryLastName">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>90</y>
+           <width>171</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>90</y>
+           <width>131</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Name / Vorname</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryFirstName">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>90</y>
+           <width>161</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>60</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Anrede</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryTitle">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>60</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>180</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Postfach</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryPoBox">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>180</y>
+           <width>151</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>210</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Telefon / Fax</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryPhone">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>210</y>
+           <width>171</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryFax">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>210</y>
+           <width>161</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_27">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>240</y>
+           <width>141</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>E-Mail</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="pvp_kev_beneficiaryEmail">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>240</y>
+           <width>341</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>855</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="action_New"/>
+    <addaction name="action_Open"/>
+    <addaction name="separator"/>
+    <addaction name="action_Save"/>
+    <addaction name="action_Save_As"/>
+    <addaction name="separator"/>
+    <addaction name="action_Quit"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>&amp;Settings</string>
+    </property>
+    <addaction name="action_Preferences"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menuSettings"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_New">
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="action_Open">
+   <property name="text">
+    <string>&amp;Open...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_Save">
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_Save_As">
+   <property name="text">
+    <string>Save &amp;As...</string>
+   </property>
+  </action>
+  <action name="action_Quit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="action_Preferences">
+   <property name="text">
+    <string>&amp;Preferences...</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>pvp_plantLocation_street</tabstop>
+  <tabstop>pvp_plantLocation_streetNumber</tabstop>
+  <tabstop>pvp_plantLocation_zip</tabstop>
+  <tabstop>pvp_plantLocation_city</tabstop>
+  <tabstop>pvp_plantLocation_plotNumber</tabstop>
+  <tabstop>pvp_plantLocation_swissGridX</tabstop>
+  <tabstop>pvp_plantLocation_swissGridY</tabstop>
+  <tabstop>pvp_owner_title</tabstop>
+  <tabstop>pvp_owner_lastName</tabstop>
+  <tabstop>pvp_owner_firstName</tabstop>
+  <tabstop>pvp_owner_address_street</tabstop>
+  <tabstop>pvp_owner_address_streetNumber</tabstop>
+  <tabstop>pvp_owner_address_zip</tabstop>
+  <tabstop>pvp_owner_address_city</tabstop>
+  <tabstop>pvp_owner_email</tabstop>
+  <tabstop>pvp_owner_phone</tabstop>
+  <tabstop>pvp_kev_plantLocationCity</tabstop>
+  <tabstop>pvp_kev_beneficiaryCompany</tabstop>
+  <tabstop>pvp_kev_beneficiaryTitle</tabstop>
+  <tabstop>pvp_kev_beneficiaryLastName</tabstop>
+  <tabstop>pvp_kev_beneficiaryFirstName</tabstop>
+  <tabstop>pvp_kev_beneficiaryStreet</tabstop>
+  <tabstop>pvp_kev_beneficiaryHouseNumber</tabstop>
+  <tabstop>pvp_kev_beneficiaryZip</tabstop>
+  <tabstop>pvp_kev_beneficiaryCity</tabstop>
+  <tabstop>pvp_kev_beneficiaryPoBox</tabstop>
+  <tabstop>pvp_kev_beneficiaryPhone</tabstop>
+  <tabstop>pvp_kev_beneficiaryFax</tabstop>
+  <tabstop>pvp_kev_beneficiaryEmail</tabstop>
+  <tabstop>fieldsFromKev</tabstop>
+  <tabstop>pvp_kev_plantLocationZip</tabstop>
+  <tabstop>pvp_kev_plantLocationHouseNumber</tabstop>
+  <tabstop>pvp_kev_plantLocationStreet</tabstop>
+  <tabstop>pb_finalInvoiceSent_2</tabstop>
+  <tabstop>pvp_progress_inquiryReceived</tabstop>
+  <tabstop>pvp_progress_archived</tabstop>
+  <tabstop>pb_finalInvoiceSent_3</tabstop>
+  <tabstop>pvp_progress_roofMeasured</tabstop>
+  <tabstop>pb_finalInvoiceSent_4</tabstop>
+  <tabstop>pvp_progress_quote1Sent</tabstop>
+  <tabstop>pb_finalInvoiceSent_5</tabstop>
+  <tabstop>pvp_progress_quote2Sent</tabstop>
+  <tabstop>pb_finalInvoiceSent_6</tabstop>
+  <tabstop>pvp_progress_quote3Sent</tabstop>
+  <tabstop>pb_finalInvoiceSent_7</tabstop>
+  <tabstop>pvp_progress_quote4Sent</tabstop>
+  <tabstop>pb_finalInvoiceSent_8</tabstop>
+  <tabstop>pvp_progress_orderReceived</tabstop>
+  <tabstop>pb_orderRejected</tabstop>
+  <tabstop>pvp_progress_orderRejected</tabstop>
+  <tabstop>pb_finalInvoiceSent_9</tabstop>
+  <tabstop>pvp_progress_tagSent</tabstop>
+  <tabstop>pb_finalInvoiceSent_10</tabstop>
+  <tabstop>pvp_progress_tagReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_11</tabstop>
+  <tabstop>pvp_progress_iaSent</tabstop>
+  <tabstop>pb_finalInvoiceSent_12</tabstop>
+  <tabstop>pvp_progress_iaReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_13</tabstop>
+  <tabstop>pvp_progress_bauSent</tabstop>
+  <tabstop>pb_finalInvoiceSent_14</tabstop>
+  <tabstop>pvp_progress_bauReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_15</tabstop>
+  <tabstop>pvp_progress_partialInvoiceSent</tabstop>
+  <tabstop>pb_finalInvoiceSent_16</tabstop>
+  <tabstop>pvp_progress_partialInvoiceReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_17</tabstop>
+  <tabstop>pvp_progress_materialOrdered</tabstop>
+  <tabstop>pb_finalInvoiceSent_18</tabstop>
+  <tabstop>pvp_progress_materialReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_19</tabstop>
+  <tabstop>pvp_progress_constructionStart</tabstop>
+  <tabstop>pb_finalInvoiceSent_20</tabstop>
+  <tabstop>pvp_progress_launch</tabstop>
+  <tabstop>pb_finalInvoiceSent_21</tabstop>
+  <tabstop>pvp_progress_documentationCreated</tabstop>
+  <tabstop>pb_finalInvoiceSent_22</tabstop>
+  <tabstop>pvp_progress_documentationPlaced</tabstop>
+  <tabstop>pb_finalInvoiceSent</tabstop>
+  <tabstop>pvp_progress_finalInvoiceSent</tabstop>
+  <tabstop>pb_finalInvoiceSent_23</tabstop>
+  <tabstop>pvp_progress_finalInvoiceReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_24</tabstop>
+  <tabstop>pvp_progress_siNaDcOrdered</tabstop>
+  <tabstop>pb_finalInvoiceSent_25</tabstop>
+  <tabstop>pvp_progress_siNaDcReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_26</tabstop>
+  <tabstop>pvp_progress_siNaAcOrdered</tabstop>
+  <tabstop>pb_finalInvoiceSent_27</tabstop>
+  <tabstop>pvp_progress_siNaAcReceived</tabstop>
+  <tabstop>pb_finalInvoiceSent_28</tabstop>
+  <tabstop>pvp_progress_eivComplete</tabstop>
+  <tabstop>pb_finalInvoiceSent_29</tabstop>
+  <tabstop>pvp_progress_eivPayed</tabstop>
+  <tabstop>pb_archived</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
